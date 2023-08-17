@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'HelveticaNowText';
+    src: url("/fonts/HelveticaNowText-Regular/HelveticaNowText-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Helvetica-neue';
+    src: url("fonts/Helvetica-Neue-Font/Helvetica Neue Medium Extended/");
+}
+
+@font-face {
+    font-family: 'Helvetica Now Display Bold';
+    src: url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.eot");
+    src: url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.eot?#iefix") format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.ttf") format("truetype"),
+        url("https://db.onlinewebfonts.com/t/04e6981992c0e2e7642af2074ebe3901.svg#Helvetica Now Display Bold") format("svg");
+}
+
+@font-face {
+    font-family: 'Helvetica-bold';
+    src: url("fonts/HelveticaNowDisplay-Medium/HelveticaNowDisplay-Medium.ttf");
+}
+
+body {
+    background-color: rgb(0, 0, 0) !important;
+    margin: 0;
+    font-family: 'HelveticaNowText', Arial, sans-serif;
+}
+.main {
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.offcanvas {
+    background-color: #000 !important;
+  }
+
+
+.toggler-color {
+    color: #ffffff !important;
+}
+.hamberger{
+    color: #ffffff;
+    cursor: pointer;
+}
+.hamberger:hover{
+    color: rgb(252, 175, 23);
+}
+
+.navbar-light .navbar-toggler-icon-white {
+    background-color: rgb(0, 0, 0) !important;
+}
+
+#logo-img {
+    height: 36px;
+}
+
+.nav-end-icon {
+    margin-right: 0;
+}
+
+#nav-right-icon {
+    height: 36px;
+}
+
+.section-1-img-text {
+    color: white;
+}
+.image-pad{
+    padding: 0px 0px !important;
+}
+
+.btn-watch-now {
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-watch-now:hover {
+    background-color: rgb(252, 175, 23);
+    color: black !important;
+    border-color: rgb(252, 175, 23) !important;
+}
+@media (max-width:992px) {
+    .section-1-img-text{
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        flex-direction: column;
+    }
+
+    
+}
+
+/* section----2 */
+
+
+.newswire{
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+.card{
+  height: 100%;  
+  background-color: #000 !important;
+  border: 0.3px solid #929292 !important;
+}
+.date-img{
+    color: #929292 !important;
+}
+
+/* section--------3 */
+
+.featuredclass{
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+
+/* search bar.... */
+
+.search-bar{
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+
+/* footer.... */
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+
+}
+@media (max-width: 800px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-links.align-items-sm-center {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+    color: #cecece;
+}
+
+.links {
+    font-size: 20px !important;
+}
+
+@media (max-width:700px) {
+    .links {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-flex.flex-column.justify-content-start.align-items-sm-end {
+        align-items: flex-start;
+    }
+}
+
+.footer-icons {
+    height: 30px;
+}
+
+@media (max-width: 576px) {
+    .footer-icons {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.links-2 {
+    font-size: 10px;
+    color: #808080;
+}
+
+.last-line {}
+
+@media (max-width: 800px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-12.mt-4.pt-4.pb-4 .container {
+        font-size: 7px;
+    }
+}
+/* styles.css */
+#backToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+  
