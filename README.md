@@ -16,11 +16,11 @@ Rock Star Gaming is a popular gaming website known for its vibrant design and us
 
 ## Screenshots
 
-![Screenshot of the Rock Star Gaming Website](link-to-screenshot)
+<img src="Screenshot 2024-02-08 165019.png" alt="Screenshot 1" style="width: 50%;"> 
 
-[Include a screenshot of the website to showcase its appearance and layout.]
+
+<img src="Screenshot 2024-02-08 165038.png" alt="Screenshot 2" style="width: 50%;">
 
 ## Website Link
 
 Link : https://farzgit.github.io/rockstar/
-
